@@ -5,11 +5,15 @@
   "main": "calculaTaxaDesconto.js",
   "scripts": {
     "test": "jest",
-    "cobertura": "jest --coverage"
+    "cobertura": "jest --coverage",
+    "mutacao": "stryker run",
+    "mutacao.log": "stryker run --logLevel trace"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@stryker-mutator/core": "^9.3.0",
+    "@stryker-mutator/jest-runner": "^9.3.0",
     "jest": "^30.2.0"
   }
 }

@@ -16,12 +16,17 @@ npm install --save-dev jest
 > [!TIP]
 > Caso tenha o `package.json`, execute o comando `npm i`.
 
-### Executar os testes
+### Executar os testes com Jest
 ```
 npm run test
 ```
 
-### Executar os testes e verificar a cobertura dos testes
+### Executar os testes e verificar a cobertura dos testes com Jest
 ```
 npm run cobertura
+```
+
+### Executar o Stryker Mutator
+```
+npm run mutacao
 ```
